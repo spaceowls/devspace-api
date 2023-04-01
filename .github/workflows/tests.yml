@@ -1,4 +1,4 @@
-name: Tests
+name: Build & Test Application
 
 on:
   pull_request:
@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [latest]
 
     steps:
       - uses: actions/checkout@v3
