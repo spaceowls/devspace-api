@@ -1,9 +1,0 @@
-name: Dev Space Pipeline
-on: [pull_request]
-jobs:
-  Test-Application:
-    runs-on: ubuntu-latest
-    steps:
-      - run: yarn install && yarn test
-      - name: Check out repository code
-        uses: actions/checkout@v3
