@@ -1,5 +1,5 @@
 import { DocumentBuilder } from '@nestjs/swagger';
-import { version } from 'package.json';
+import { version } from '../../package.json';
 
 export const config = new DocumentBuilder()
   .setTitle('DevSpace API')
