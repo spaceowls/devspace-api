@@ -10,5 +10,5 @@ export const typeOrmMock: TypeOrmModuleOptions = {
   migrations: ['dist/migrations/*.{ts,js}'],
   migrationsTableName: 'typeorm_migrations',
   logger: 'file',
-  synchronize: true,
+  synchronize: false,
 };
