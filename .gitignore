@@ -36,3 +36,10 @@ lerna-debug.log*
 
 # Env
 .env
+
+# Database
+/database
+
+# Lock
+package-lock.json
+yarn.lock
