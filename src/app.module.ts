@@ -9,6 +9,7 @@ import { MongooseModule } from '@nestjs/mongoose';
     ConfigModule.forRoot({ envFilePath: '.env', isGlobal: true }),
     MongooseModule.forRoot(process.env.MONGO_URI),
   ],
+  
   controllers: [AppController],
   providers: [AppService],
 })
